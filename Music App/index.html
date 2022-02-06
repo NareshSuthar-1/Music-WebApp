@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSIC App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-------------------------------------------------- Frame 1 -------------------------------------------------->
+        <div class="frame active" id="players-frame">
+            <nav class="nav-container">
+                <div class="nav-iteam exist">
+                    <div class="dark-Mode-toogle">
+                        <label for="Dark-Mode"></label>
+                        <span class="slider"></span>
+                        <input type="checkbox" name="Dark-Mode" id="Dark-Mode">
+                    </div>
+                </div>
+                <div class="logo">
+                    Music Logo App
+                </div>
+                <div class=" nav-iteam menu">
+                    <img src="./images/menu-btn.svg" alt="" id="menu-list-btn">
+                </div>
+            </nav>
+            <section class="body">
+                <div class="music-banner-img">
+                    <img src="" alt="" id="banner-img">
+                </div>
+                <div class="music-info">
+                    <h1 class="music-title" id="music-title">
+                        Helloooooo.....
+                    </h1>
+                    <h3 class="singer-name">naresg</h3>
+                </div>
+                <div class="music-player">
+                    <div class="times">
+                        <span class=" music-played">0:0</span>
+                        <span class="music-duration">0:0</span>
+                    </div>
+                    <div class="range_container">
+                        <div class="progress_bar" id="progress_bar">
+                        </div>
+                    </div>
+                    <audio src="./songs/128-Khyaal - Jass Manak 128 Kbps.mp3" controls id="audio-player"></audio>
+                </div>
+            </section>
+            <section class="music-player-controls">
+                <div class="controls previes-btn">
+                    <img src="./images/previes-btn.svg" alt="">
+                </div>
+                <div class="controls pause-btn">
+                    <img src="./images/play-btn.svg  " alt="" id="pause-btn-img">
+                </div>
+                <div class="controls next-btn">
+                    <img src="./images/forward-btn.svg" alt="">
+                </div>
+            </section>
+        </div>
+        <!-------------------------------------------------- Frame 2 -------------------------------------------------->
+        <div class="frame" id="intropage">
+            <h1 class="sected-music">Music App</h1>
+            <!-- <div class="music-frame">
+                <div class="like-btn" id="like-btn"><img src="./images/heart-outline.svg" alt=""></div>
+                <div class="music-banner-img">
+                    <img src="./songs/baarish-banner-img.jpg" alt="" id="main-banner-img">
+                </div>
+                <div class="option-btn"><img src="./images/doted-menu-btn.png" alt=""></div>
+            </div> -->
+            <div class="music-library">
+                <ul class="song-list">
+                    <!-- <li class="song">
+                        <p class="music-info"><span class="song-name" id="song-name-n">hello...</span><br>
+                            <span class="singer-name">singer-name</span>
+                        </p>
+                        <div class="pausePlay-direct-btn">
+                            <img src="./images/play-btn.svg  " alt="" id="pause-btn-img">
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <script src="./js/API.js"></script>
+        <script src="./js/custom.js"></script>
+</body>
+
+</html>
