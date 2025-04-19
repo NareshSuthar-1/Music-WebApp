@@ -1,4 +1,3 @@
-# Music-WebApp
 # Musti - Web Music Player
 
 Musti is a web-based music player application built with HTML, CSS, and vanilla JavaScript. It serves as a demonstration project showcasing fundamental UI/UX principles for music apps and illustrating how to handle and display song data (simulating JSON or API responses) within a front-end application.
